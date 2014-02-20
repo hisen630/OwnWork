@@ -1,0 +1,3 @@
+Scripts for crawl, analyze box office data.
+Function list:
+	getBoxOffice.py - download China-Mainland movie box office data.
