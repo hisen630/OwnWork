@@ -136,7 +136,9 @@ if '__main__' == __name__:
                             if movie_a is None:
                                 invalid_flag = True
                                 break
-                            name = movie_a.getText()
+                            # when the movie name is too long, text is trimed
+                            # so need get the title
+                            name = movie_a.get('title')
                             href = movie_a.get('href')
                         # actors
                         elif idx == 2:
